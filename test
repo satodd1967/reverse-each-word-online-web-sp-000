@@ -16,6 +16,7 @@ string_array = string.split
   string_array.collect do |word|
   word.reverse
   end
+  reverse_each_word(string).join
 end
 
 
