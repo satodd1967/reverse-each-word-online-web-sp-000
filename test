@@ -17,7 +17,6 @@ string_array_reverse = []
   string_array.map do |word|
     string_array_reverse << word.reverse
   end
-  return string_array_reverse.join(" ")
 end
 
 
